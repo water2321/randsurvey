@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var SurveyList = ['http://www.google.com', 
+                              'http://www.youtube.com'
+                             ];
+
+            var num = getRandom(SurveyList.length);
+
+            location.href=SurveyList[num];
+
+            function getRandom(x) { 
+                return Math.floor(Math.random() * x);
+            };
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
